@@ -1,0 +1,36 @@
+body{
+    background: linear-gradient(95deg,#A16BFE,#BC3D2F);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.weather-container{
+    background: linear-gradient(95deg,#D4FC78,#99E5A2);
+    border-radius: 10px;
+    margin: 40px auto;
+    padding: 25px 30px;
+    border-color: azure;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+}
+
+.weather-container h1 {
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.weather-container p {
+  margin: 8px 0;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.result{
+    background: linear-gradient(95deg,#8debff,#6cacff);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 25px 30px;
+}
